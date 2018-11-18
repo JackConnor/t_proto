@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #b4f8f5;
+
+}
+
+.initial-message-container {
+  display: block;
+  width: 350px;
+  height: 200px;
+  padding: 70px 15px 0 15px;
+  box-sizing: border-box;
+  background-color: #f0fdfd;
+  font-size: 21px;
+  text-align: center;
+}
