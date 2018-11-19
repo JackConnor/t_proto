@@ -9,11 +9,14 @@ body {
   height: 100vh;
   box-sizing: border-box;
   background-color: #b4f8f5;
+}
 
+.show-container {
+  display: block !important;
 }
 
 .initial-message-container {
-  display: block;
+  display: none;
   width: 350px;
   height: 200px;
   padding: 70px 15px 0 15px;
@@ -21,4 +24,45 @@ body {
   background-color: #f0fdfd;
   font-size: 21px;
   text-align: center;
+}
+
+.listen-container {
+  display: none;
+  width: 350px;
+  height: 200px;
+  padding: 70px 15px 0 15px;
+  box-sizing: border-box;
+  background-color: orange;
+  font-size: 21px;
+  text-align: center;
+  transition: background-color 1s ease-in-out;
+}
+
+.listen-second-color {
+  background-color: transparent;
+}
+
+.options-container {
+  position: relative;
+  display: none;
+  width: 450px;
+  box-sizing: border-box;
+  outline: 1px solid white;
+}
+
+.option {
+  width: 100%;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f6f6f6;
+  font-size: 21px;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.option:hover {
+  background-color: #dbdbdb;
 }
