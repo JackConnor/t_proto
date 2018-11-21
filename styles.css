@@ -32,14 +32,23 @@ body {
   height: 200px;
   padding: 70px 15px 0 15px;
   box-sizing: border-box;
-  background-color: orange;
-  font-size: 21px;
+  background-color: #ddd1e7;
+  font-size: 27px;
+  color: #595959;
   text-align: center;
-  transition: background-color 1s ease-in-out;
+  transition: background-color .5s ease-in-out;
+}
+
+.translation-container {
+  background-color: #ffcfdb !important;
+}
+
+.translated-container {
+  background-color: #f8efd2 !important;
 }
 
 .listen-second-color {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .options-container {
@@ -47,7 +56,6 @@ body {
   display: none;
   width: 450px;
   box-sizing: border-box;
-  outline: 1px solid white;
 }
 
 .option {
@@ -63,6 +71,21 @@ body {
   transition: background-color .2s ease-in-out;
 }
 
+.option:first-of-type {
+  margin-top: 0;
+}
+
 .option:hover {
   background-color: #dbdbdb;
+}
+
+.option-title {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  font-size: 22px;
+  font-weight: 600;
+  margin: -70px auto 0 auto;
+  left: 0;
+  right: 0;
 }
